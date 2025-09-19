@@ -35,7 +35,19 @@ To write a program to predict the type of species of the Iris flower using the S
 
 14.'random_state=42' ensures reproducibility (same split every time).
 
-15.'SGDClassifier' is initialized with: 'max_iter=1000': Runs up to 1000 iterations to optimize weights. 'tol=1e-3': Stops early if the loss improvement is below '0.001'. 16.The classifier is trained on the training dataset using 'fit()'. 17.The trained model predicts labels ('y_pred') for 'x_test' using 'predict()'. 18.'accuracy_score(y_test, y_pred)' compares predictions with actual values. 19.The accuracy (fraction of correct predictions) is printed. 20.The Confusion Matrix is printed to analyze how many predictions were correct or misclassified. 21.The Classification Report includes: Precision: How many positive predictions were actually correct? Recall: How many actual positives were correctly predicted? F1-score: Harmonic mean of precision and recall. Support: Number of actual occurrences of each class.
+15.'SGDClassifier' is initialized with: 'max_iter=1000': Runs up to 1000 iterations to optimize weights. 'tol=1e-3': Stops early if the loss improvement is below '0.001'. 
+
+16.The classifier is trained on the training dataset using 'fit()'. 
+
+17.The trained model predicts labels ('y_pred') for 'x_test' using 'predict()'. 
+
+18.'accuracy_score(y_test, y_pred)' compares predictions with actual values. 
+
+19.The accuracy (fraction of correct predictions) is printed. 
+
+20.The Confusion Matrix is printed to analyze how many predictions were correct or misclassified. 
+
+21.The Classification Report includes: Precision: How many positive predictions were actually correct? Recall: How many actual positives were correctly predicted? F1-score: Harmonic mean of precision and recall. Support: Number of actual occurrences of each class.
 
 ## Program:
 ```
